@@ -1,0 +1,28 @@
+src/
+├── components/          # ของที่ใช้ร่วมกันทุกหน้า (ปุ่ม, ช่องกรอก, Modal)
+│   ├── Button/
+│   ├── Input/
+│   └── Modal/
+├── features/            # แบ่งตามหน้าที่การทำงาน (ตามรูปภาพ)
+│   ├── auth/            # [รูป Login]
+│   │   ├── components/  # LoginForm.tsx
+│   │   └── api/         # login(), logout()
+│   ├── pos/             # [รูปหน้าขายหน้าร้าน]
+│   │   ├── components/  # ProductList.tsx, CartSummary.tsx
+│   │   └── hooks/       # useCart.tsx (logic คำนวณเงิน)
+│   ├── payment/         # [รูปหน้าชำระเงิน]
+│   │   ├── components/  # PaymentMethodSelector.tsx, QRDisplay.tsx
+│   ├── inventory/       # [รูปหน้าสต็อกสินค้า]
+│   │   ├── components/  # ProductTable.tsx, StockForm.tsx
+│   ├── orders/          # [รูปหน้ารับออเดอร์เดลิเวอรี]
+│   ├── reports/         # [รูปหน้ายอดขาย/รายงาน]
+│   ├── employees/       # [รูปหน้าจัดการพนักงาน]
+│   ├── settings/        # [รูปหน้าตั้งค่า]
+│   └── transactions/    # [รูปหน้าประวัติการขาย/ใบเสร็จ]
+├── pages/               # หน้าเพจหลักที่เป็นตัวรวม Feature มาแสดง
+│   ├── LoginPage.tsx
+│   ├── PosPage.tsx
+│   ├── StockPage.tsx
+│   └── ...
+├── App.tsx              # ตั้งค่า Router (เส้นทางไปแต่ละหน้า)
+└── index.css            # Global Styles (สีหลัก, ฟอนต์)
