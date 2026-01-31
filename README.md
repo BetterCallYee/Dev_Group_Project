@@ -36,4 +36,5 @@ Example: git checkout -b feature-login
 > git config --global user.name "Your Name"
 > git commit -m "commit_Name"
 Example: git commit -m "Login"
-> git push origin cloneproject
+> git push origin branch_Name
+Example: git push origin feature-login
