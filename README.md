@@ -38,3 +38,9 @@ Example: git commit -m "Login"
 - git push origin branch_Name
 
 Example: git push origin feature-login
+
+
+### Update project to match the main repository.
+This should be done every time before starting work.
+- git checkout main
+- git pull origin main
