@@ -20,9 +20,9 @@ src/
 │   ├── settings/        # [รูปหน้าตั้งค่า]
 │   └── transactions/    # [รูปหน้าประวัติการขาย/ใบเสร็จ]
 ├── pages/               # หน้าเพจหลักที่เป็นตัวรวม Feature มาแสดง
-│   ├── LoginPage.tsx
-│   ├── PosPage.tsx
-│   ├── StockPage.tsx
+│   ├── LoginPage.jsx
+│   ├── PosPage.jsx
+│   ├── StockPage.jsx
 │   └── ...
-├── App.tsx              # ตั้งค่า Router (เส้นทางไปแต่ละหน้า)
+├── App.jsx              # ตั้งค่า Router (เส้นทางไปแต่ละหน้า)
 └── index.css            # Global Styles (สีหลัก, ฟอนต์)
