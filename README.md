@@ -32,5 +32,8 @@ Example: git checkout -b feature-login
 
 # when you finish your code
 > git git add. 
+> git config --global user.email "you@example.com"
+> git config --global user.name "Your Name"
 > git commit -m "commit_Name"
 Example: git commit -m "Login"
+> git push origin cloneproject
