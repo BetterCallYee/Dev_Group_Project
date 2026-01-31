@@ -5,25 +5,22 @@ A group project that trains collaboration and simulates teamwork.
 ## How to clone project
 
 ### Install Git 
-- [Download Git for Windows](https://git-scm.com/install/windows)
-https://git-scm.com/install/windows
-- [Download Git for Mac](https://git-scm.com/install/mac)
-https://git-scm.com/install/mac
+- Download Git for Windows: https://git-scm.com/install/windows
+- Download Git for Mac: https://git-scm.com/install/mac 
 
 ### Copy this Url (Project URL)
-[Clone using the web URL](https://github.com/BetterCallYee/Dev_Group_Project.git)
-https://github.com/BetterCallYee/Dev_Group_Project.git
+- [Clone using the web URL](https://github.com/BetterCallYee/Dev_Group_Project.git)
+- https://github.com/BetterCallYee/Dev_Group_Project.git
 
 ### Open VScode
 - (Ctrl + Shift + P)
 - Git: Clone
-- (Ctrl + V) or (https://github.com/BetterCallYee/Dev_Group_Project.git)
-https://github.com/BetterCallYee/Dev_Group_Project.git
+- (Ctrl + V) or https://github.com/BetterCallYee/Dev_Group_Project.git
 - Select folder
 
 
 ### Create your own branch (very important)
-- Vscode Terminal 
+- Open Vscode Terminal 
 ### Create Your Branch
 - git checkout -b branch_Name
 
