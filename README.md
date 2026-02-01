@@ -21,23 +21,22 @@ A group project that trains collaboration and simulates teamwork.
 
 ### Create your own branch (very important)
 - Open Vscode Terminal 
-### Create Your Branch
 - git checkout -b branch_Name
 
-Example: git checkout -b feature-login
+[Example: git checkout -b feature-login]
 
 ### check your branch
 - git status 
 
 
 ### when you finish your code
-- git add. 
+- git add . 
 - git commit -m "commit_Name"
 
-Example: git commit -m "Login"
+[Example: git commit -m "Login"]
 - git push origin branch_Name
 
-Example: git push origin feature-login
+[Example: git push origin feature-login]
 
 
 ### Update project to match the main repository.
